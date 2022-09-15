@@ -4,15 +4,15 @@
 
 
 
-# Usage
+## Usage
 
 
 
-# Requirements
+## Requirements
 
 
 
 
-# References
-[1] https://github.com/JaidedAI/EasyOCR
-[2] https://github.com/heartexlabs/labelImg
+## References
+<ul>[1] https://github.com/JaidedAI/EasyOCR <\ul>
+<ul>[2] https://github.com/heartexlabs/labelImg <\ul>
