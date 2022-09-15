@@ -11,5 +11,5 @@
 
 
 
-# Refernces
+# References
 [1] https://github.com/JaidedAI/EasyOCR
