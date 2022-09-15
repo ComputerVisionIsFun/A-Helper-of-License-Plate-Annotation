@@ -14,5 +14,5 @@
 
 
 ## References
-<ul>[1] https://github.com/JaidedAI/EasyOCR <\ul>
-<ul>[2] https://github.com/heartexlabs/labelImg <\ul>
+<ul>[1] https://github.com/JaidedAI/EasyOCR </ul>
+<ul>[2] https://github.com/heartexlabs/labelImg </ul>
