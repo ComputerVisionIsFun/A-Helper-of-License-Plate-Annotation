@@ -6,11 +6,6 @@ When developing an object detection application, you usually need to annotate wh
 <img src='https://github.com/ComputerVisionIsFun/A-Helper-of-License-Plate-Annotation/blob/main/intro.png' width=300 style='left'>
 </div>
 
-
-
-
-
-
 ## Usage
 ```
 python test.py -v ./test_videos/ -of ./output/ -sr 5 -sxp ./Annotation/sample.xml
