@@ -1,9 +1,4 @@
 import xml.etree.ElementTree as ET
-import numpy as np
-import random
-import os
-import cv2
-
 
 def create_xml(folder, filename, objs, sample_xml_path, new_xml_save_path, img_w, img_h, img_d,obj_name):
     '''
@@ -25,7 +20,7 @@ def create_xml(folder, filename, objs, sample_xml_path, new_xml_save_path, img_w
 
     # create objs
     for obj in objs:
-        print(obj[0][0],'\n')
+        # print(obj[0][0],'\n')
         xmin, ymin = str(obj[0][0][0]), str(obj[0][0][1])
         xmax, ymax = str(obj[0][2][0]), str(obj[0][2][1]) 
         new_element = create_an_object(obj_name, xmin, ymin, xmax, ymax)

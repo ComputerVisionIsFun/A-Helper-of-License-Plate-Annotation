@@ -1,5 +1,6 @@
 from Annotation import annotation as A
 import argparse
+import os
 
 def prase_args():
     parser = argparse.ArgumentParser()
@@ -19,3 +20,19 @@ def main(args):
     sample_xml_path = args.sample_xml_path
 
     A.automatic_annotation(video_folder,output_folder,sampling_rate,sample_xml_path)
+
+
+
+if __name__=='__main__':
+    args = prase_args()
+    video_folder = args.video_folder
+    output_folder = args.output_folder
+    sampling_rate = args.sampling_rate
+    sample_xml_path = args.sample_xml_path
+
+    try:
+        os.mkdir(output_folder)
+    except:
+        pass
+
+    main(args)
